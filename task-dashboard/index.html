@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Portfolio Task Dashboard</h1>
+    
+    <!-- Login Form -->
+    <div id="login-form" class="form">
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+    
+    <!-- Dashboard -->
+    <div id="dashboard" class="hidden">
+      <h2>Your Tasks</h2>
+      <div id="tasks-list"></div>
+    </div>
+  </div>
+
+  <script>
+    async function login() {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      
+      const res = await fetch('/api/login', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({username, password})
+      });
+      
+      const data = await res.json();
+      if (data.success) {
+        document.getElementById('login-form').classList.add('hidden');
+        document.getElementById('dashboard').classList.remove('hidden');
+        loadTasks();
+      } else {
+        alert(data.message);
+      }
+    }
+    
+    async function loadTasks() {
+      const res = await fetch('/api/tasks');
+      const tasks = await res.json();
+      const list = document.getElementById('tasks-list');
+      list.innerHTML = tasks.map(task => 
+        `<div class="task ${task.completed ? 'completed' : ''}">${task.title}</div>`
+      ).join('');
+    }
+  </script>
+</body>
+</html>
+
