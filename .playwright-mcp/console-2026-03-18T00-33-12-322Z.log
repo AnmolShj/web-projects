@@ -1,0 +1,389 @@
+[   13435ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   13964ms] Error: ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/lib/contexts/chat-context.tsx:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file://C:\Users\Anmol\Downloads\uigen\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:775:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\Anmol\Downloads\uigen\node_modules\next\dist\server\lib\dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file://C:\Users\Anmol\Downloads\uigen\node_modules\next\dist\server\dev\next-dev-server.js:721:42)
+    at DevServer.findPageComponents (file://C:\Users\Anmol\Downloads\uigen\node_modules\next\dist\server\dev\next-dev-server.js:691:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\Anmol\Downloads\uigen\node_modules\next\dist\server\base-server.js:1687:26)
+[   13937ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   13938ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   15480ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   15557ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[   15564ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   15597ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   15753ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   15860ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   15911ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   15974ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22836ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   23199ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   23263ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   23338ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   23384ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   62385ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3918
+[   62537ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2836
+[   65037ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   66379ms] TypeError: Cannot read properties of undefined (reading 'trim')
+    at MessageInput (http://localhost:3000/_next/static/chunks/src_6cf65c6d._.js:1408:51)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:13072:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4091:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:5523:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6111:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:886:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8298:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8190:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8173:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7932:56)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8882:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_5150ccfd._.js:2601:64)

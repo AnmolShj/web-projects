@@ -1,0 +1,129 @@
+[    6801ms] [ERROR] Attestation check for Attribution Reporting on https://www.googleadservices.com failed. @ https://www.google.com/search?q=chat+gpt&oq=chat&gs_lcrp=EgZjaHJvbWUqBggBECMYJzIOCAAQRRgnGDkYgAQYigUyBggBECMYJzIKCAIQABixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABixAxiABBiKBTIQCAYQABiDARixAxiABBiKBTIGCAcQBRhA0gEIMjE1MmowajeoAgewAgHxBU6tJo0jVmsY&sourceid=chrome&ie=UTF-8:0
+[    8461ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Experiment "944963740" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8469ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4011688770" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8555ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1957563541" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8569ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "831823566" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8570ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3950660279" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8570ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1758722097" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8571ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2205197867" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8579ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2928249761" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8579ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3959994305" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8589ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2042715633" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8589ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "workspace_id" for Gate "1627064618" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8591ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "463092697" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8592ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2055431672" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8593ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "1001765573" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8593ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3933797510" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8594ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "112877228" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8595ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Experiment "4220976262" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8600ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "733205176" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8604ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4100765009" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8606ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1542198993" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8607ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1053331630" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8608ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2335877601" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8610ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2400167019" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8611ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "507055138" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8611ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1946731762" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8622ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3530939117" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8625ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1829305865" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8628ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3605919906" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8628ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2689066271" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8631ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "735368229" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8632ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "3317473948" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8633ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3922476776" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8636ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "workspace_id" for Gate "1355972088" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8636ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "workspace_id" for Dynamic config "3553340571" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8643ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "988697485" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8668ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "491279851" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8669ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3999836663" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8677ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "224248639" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8679ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1524046265" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8679ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2688889402" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8683ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "757783264" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8683ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "713974087" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8684ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3194776735" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8684ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2064584210" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8684ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1791965523" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8686ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3871256114" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8702ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Experiment "876391302" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8702ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4164414103" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8739ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2322626856" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8742ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "745511604" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8742ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "616577762" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8755ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "1760795888" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8762ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1611573287" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8762ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4262905012" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8763ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3702009723" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8765ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3018147683" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8765ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4105134853" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8772ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "1535193150" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8775ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3602298601" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8776ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1909635392" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8780ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "3861898381" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8781ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4237780970" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8785ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4233029563" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8785ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "597299768" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8797ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4087025484" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8797ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "537200474" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8802ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "3401870206" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8806ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1860647109" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8807ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2502169545" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8815ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "3635154224" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8817ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1605274664" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8829ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3138376546" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8830ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3457598265" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8832ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "121411412" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8834ms] [ERROR] Error: [models] Could not create default model
+    at https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:1128500
+    at jo (https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:74017)
+    at TT.ff.name (https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:168053)
+    at Jj (https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:27372)
+    at t.computeValue_ (https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:24632)
+    at t.trackAndCompute (https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:24477)
+    at t.get (https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:24084)
+    at https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:168136
+    at https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:169305
+    at https://chatgpt.com/cdn/assets/4813494d-kkrds488ucwbhdy5.js:2:173780 {defaultModelSlug: auto} @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8838ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3207737252" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8838ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2632917233" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8839ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "workspace_id" for Dynamic config "1967546325" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8841ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3955187385" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8841ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "278871159" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8846ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1768937626" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8855ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3014776572" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8856ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "46455729" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8857ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "workspace_id" for Experiment "3058946295" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8864ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2461452859" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8864ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2360528850" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8864ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "71872232" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8871ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3240576626" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8873ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2304807207" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8873ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "878458344" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8874ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "2751188136" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8875ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2095603192" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8875ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "916292397" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8876ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "58496621" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8881ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "69563813" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8883ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1599781686" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8889ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1945318446" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8893ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1468311859" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8893ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2053937752" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8894ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3664702598" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8894ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "471233253" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8894ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4012000346" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8899ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "2943229081" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8900ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2209667701" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8929ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1627380539" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    8973ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Experiment "3203804112" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9039ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "4290238484" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9041ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "473637331" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9241ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2341940718" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9374ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "1920889267" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9374ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "2042610337" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9395ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3109853659" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9396ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3375735072" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9406ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "676035580" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9415ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Gate "3813654834" @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
+[    9432ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:80
+[   37005ms] [ERROR] Prompt dismissed. API exponential cool down not triggered. @ https://chatgpt.com/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_C_SEM_GBR_Core_CHT_BAU_ACQ_PER_MIX_ALL_NAMER_CA_EN_032525&c_id=22376911868&c_agid=175413814965&c_crid=741707849649&c_kwid=kwd-1927051708782&c_ims=&c_pms=9000813&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=22376911868&gbraid=0AAAAA-I0E5d7T9sIDS8lYPiTvpMYUERIV&gclid=Cj0KCQjw9-PNBhDfARIsABHN6-2DDZNoedyE0c_mMDz-eHvLHWOUyjKkWjWCRAaiBu_Ecjr_5afjnAUaAlcREALw_wcB:0
+[   37007ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://chatgpt.com/cdn/assets/2340486e-maqbvs2h3ity16nw.js:0
