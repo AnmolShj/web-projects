@@ -1,0 +1,134 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: users
+    // Document ID: {userId}
+    // Fields:
+    //   - email: string (required, email)
+    //   - name: string (required)
+    //   - agency_logo: string (optional)
+    //   - agency_name: string (optional)
+    //   - phone: string (optional)
+    //   - created_at: timestamp (optional)
+    //   - role: string (optional, enum: ['admin', 'user'])
+    //
+    // Collection: listings
+    // Document ID: {listingId}
+    // Fields:
+    //   - user_id: string (required)
+    //   - type: string (required)
+    //   - input_data: map (required)
+    //   - output_data: map (required)
+    //   - created_at: timestamp (optional)
+    //
+    // Collection: leads
+    // Document ID: {leadId}
+    // Fields:
+    //   - user_id: string (required)
+    //   - name: string (required)
+    //   - email: string (optional, email)
+    //   - phone: string (optional)
+    //   - property_interest: string (optional)
+    //   - status: string (optional, enum: ['new', 'contacted', 'qualified', 'closed'])
+    //   - created_at: timestamp (optional)
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
+          (request.auth.token.email == "anmolsharma6518@gmail.com" && request.auth.token.email_verified == true));
+    }
+
+    function isValidEmail(email) {
+      return email is string &&
+        email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+    }
+
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    // ===============================================================
+    // Domain Validators
+    // ===============================================================
+    function isValidUser(data) {
+      return hasRequiredFields(['email', 'name']) &&
+             data.email is string && isValidEmail(data.email) &&
+             data.name is string && data.name.size() > 0 && data.name.size() < 100 &&
+             (!('agency_logo' in data) || data.agency_logo is string) &&
+             (!('agency_name' in data) || data.agency_name is string) &&
+             (!('phone' in data) || data.phone is string) &&
+             (!('role' in data) || data.role in ['admin', 'user']);
+    }
+
+    function isValidListing(data) {
+      return hasRequiredFields(['user_id', 'type', 'input_data', 'output_data']) &&
+             data.user_id is string && 
+             (request.auth == null || data.user_id == request.auth.uid || isAdmin()) &&
+             data.type is string &&
+             data.input_data is map &&
+             data.output_data is map;
+    }
+
+    function isValidLead(data) {
+      return hasRequiredFields(['user_id', 'name']) &&
+             data.user_id is string && 
+             (request.auth == null || data.user_id == request.auth.uid || isAdmin()) &&
+             data.name is string && data.name.size() > 0 &&
+             (!('email' in data) || isValidEmail(data.email)) &&
+             (!('phone' in data) || data.phone is string) &&
+             (!('property_interest' in data) || data.property_interest is string) &&
+             (!('status' in data) || data.status in ['New', 'Contacted', 'Qualified', 'Closed', 'Lost']);
+    }
+
+    // ===============================================================
+    // Match Rules
+    // ===============================================================
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isOwner(userId) && isValidUser(request.resource.data) && 
+                      (!('role' in request.resource.data) || request.resource.data.role == 'user' || isAdmin());
+      allow update: if isOwner(userId) && isValidUser(request.resource.data) &&
+                      (request.resource.data.role == resource.data.role || isAdmin());
+    }
+
+    match /listings/{listingId} {
+      allow read: if true; // Publicly readable for landing pages
+      allow create: if isAuthenticated() && isValidListing(request.resource.data);
+      allow update: if isAuthenticated() && resource.data.user_id == request.auth.uid && isValidListing(request.resource.data);
+      allow delete: if isAuthenticated() && (resource.data.user_id == request.auth.uid || isAdmin());
+    }
+
+    match /leads/{leadId} {
+      allow read: if isAuthenticated() && (resource.data.user_id == request.auth.uid || isAdmin());
+      allow create: if true; // Publicly creatable for lead capture
+      allow update: if isAuthenticated() && resource.data.user_id == request.auth.uid && isValidLead(request.resource.data);
+      allow delete: if isAuthenticated() && (resource.data.user_id == request.auth.uid || isAdmin());
+    }
+
+    // Default deny
+    match /{path=**} {
+      allow read, write: if false;
+    }
+  }
+}

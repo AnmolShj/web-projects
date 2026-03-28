@@ -1,0 +1,7 @@
+{
+  "name": "EstateFlow AI",
+  "description": "The ultimate AI marketing engine for realtors. Generate cinematic reels, SEO-optimized property descriptions, social media captions, and email campaigns in seconds.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
